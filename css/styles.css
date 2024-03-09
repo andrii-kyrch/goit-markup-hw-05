@@ -422,14 +422,15 @@ img {
 
 .footer-subscribe-form {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
   align-items: center;
 }
 
-.footer-subscribe-lable {
+.footer-subscribe-title {
   margin-bottom: 16px;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
@@ -619,6 +620,10 @@ img {
 
 .order-form-comment:focus {
   border-color: #4d5ae5;
+}
+
+.order-form-field-wrapper:nth-child(5) {
+  margin-bottom: 24px;
 }
 
 .order-form-checkbox-label {

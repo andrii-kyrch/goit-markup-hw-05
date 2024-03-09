@@ -405,8 +405,7 @@ img {
   margin-right: 80px;
 }
 
-.footer-social-title,
-.footer-subscribe-title {
+.footer-social-title {
   margin-bottom: 16px;
   font-weight: 500;
   color: #ffffff;
@@ -423,18 +422,26 @@ img {
 
 .footer-subscribe-form {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   align-items: center;
 }
 
+.footer-subscribe-lable {
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
 .subscribe-form-input {
-  min-width: 264px;
+  width: 264px;
   height: 40px;
   padding: 8px 16px;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 1px solid #ffffff;
   border-radius: 4px;
   background-color: transparent;
@@ -446,14 +453,15 @@ img {
 
 .subscribe-form-btn {
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 16px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   padding: 8px 24px;
   border: none;
   border-radius: 4px;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
@@ -465,11 +473,8 @@ img {
   background-color: #404bbf;
 }
 
-.subscribe-form-btn-text {
-  display: block;
-}
-
 .subscribe-form-btn-icon {
+  margin-left: 16px;
   fill: #ffffff;
 }
 
